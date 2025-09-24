@@ -9,6 +9,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  output: 'standalone',
+  trailingSlash: false,
+  basePath: process.env.NODE_ENV === 'production' ? '' : '',
 }
 
 export default nextConfig
