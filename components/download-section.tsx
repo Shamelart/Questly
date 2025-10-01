@@ -4,8 +4,8 @@ import { Download, Smartphone } from "lucide-react"
 
 export function DownloadSection() {
   return (
-    <section className="py-24 bg-gradient-to-br from-primary/5 via-background to-accent/5">
-      <div className="container mx-auto px-4">
+    <section id="contacto" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-primary/5 via-background to-accent/5">
+      <div className="container mx-auto px-4 py-20">
         <Card className="max-w-4xl mx-auto border-border/50 shadow-xl">
           <CardContent className="p-8 md:p-12">
             <div className="text-center space-y-8">
