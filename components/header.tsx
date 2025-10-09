@@ -8,7 +8,7 @@ import { useActiveSection } from "@/hooks/use-active-section"
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const sectionIds = ['inicio', 'caracteristicas', 'testimonios', 'beta', 'contacto']
+  const sectionIds = ['inicio', 'caracteristicas', /*'testimonios'*/ 'Descargar en Google Play ', /*'contacto'*/]
   const activeSection = useActiveSection(sectionIds)
 
   return (
@@ -51,12 +51,13 @@ export function Header() {
                   : 'text-foreground hover:text-purple-500'
               }`}
             >
-              Características
+              ¿Cómo Funciona?
               {activeSection === 'caracteristicas' && (
                 <span className="absolute bottom-0 left-0 w-full h-0.5 bg-gradient-questly rounded-full"></span>
               )}
             </a>
-            <a 
+
+            {/* <a 
               href="#testimonios" 
               className={`relative px-3 py-2 transition-all duration-300 ${
                 activeSection === 'testimonios' 
@@ -68,21 +69,25 @@ export function Header() {
               {activeSection === 'testimonios' && (
                 <span className="absolute bottom-0 left-0 w-full h-0.5 bg-gradient-questly rounded-full"></span>
               )}
-            </a>
-            <a 
-              href="#beta" 
+            </a> */}
+
+            <a
+              href="https://tusitio.com/beta"
+              target="_blank"
+              rel="noopener noreferrer"
               className={`relative px-3 py-2 transition-all duration-300 ${
-                activeSection === 'beta' 
-                  ? 'text-purple-600 font-semibold' 
+                activeSection === 'beta'
+                  ? 'text-purple-600 font-semibold'
                   : 'text-foreground hover:text-purple-500'
               }`}
             >
-              Acceso Beta
+              Descargar en Google Play 
               {activeSection === 'beta' && (
                 <span className="absolute bottom-0 left-0 w-full h-0.5 bg-gradient-questly rounded-full"></span>
               )}
             </a>
-            <a 
+
+            {/* <a 
               href="#contacto" 
               className={`relative px-3 py-2 transition-all duration-300 ${
                 activeSection === 'contacto' 
@@ -94,15 +99,15 @@ export function Header() {
               {activeSection === 'contacto' && (
                 <span className="absolute bottom-0 left-0 w-full h-0.5 bg-gradient-questly rounded-full"></span>
               )}
-            </a>
+            </a> */}
           </nav>
 
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button variant="ghost" className="text-foreground hover:text-primary">
+            {/* <Button variant="ghost" className="text-foreground hover:text-primary">
               Iniciar Sesión
-            </Button>
-            <Button className="bg-gradient-questly hover:opacity-90 text-white">Descargar App</Button>
+            </Button> */}
+            <Button className="bg-gradient-questly hover:opacity-90 text-white">Descargar en Google Play</Button>
           </div>
 
           {/* Mobile menu button */}

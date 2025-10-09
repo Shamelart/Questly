@@ -2,109 +2,48 @@ import { Heart } from "lucide-react"
 
 export function Footer() {
   return (
-    <footer className="bg-card border-t border-border/50">
+    <footer className="bg-card border-t border-border/50 bg-gray-900 text-white">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          {/* Brand */}
-          <div className="space-y-4">
-            <h3 className="text-xl font-bold text-card-foreground">MiApp</h3>
-            <p className="text-muted-foreground text-sm leading-relaxed">
-              La aplicación que revoluciona tu experiencia digital con diseño moderno y funcionalidad avanzada.
-            </p>
+        <div className="container px-4 py-4 flex justify-center">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-center md:text-left max-w-6xl">
+              {/* Brand */}
+              <div className="space-y-4">
+                <h3 className="text-xl font-bold text-card-foreground">Questly</h3>
+                <p className="text-muted-foreground text-sm leading-relaxed">
+                  "Transformando rutinas en aventuras desde el día uno."
+                </p>
+              </div>
+
+              {/* Product */}
+              <div className="space-y-4">
+                <h4 className="font-semibold text-card-foreground">Enlaces Rápidos</h4>
+                <ul className="space-y-2 text-sm">
+                  <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Inicio</a></li>
+                  <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">¿Cómo Funciona?</a></li>
+                  <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Descargar</a></li>
+                  <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Política de Privacidad</a></li>
+                  <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Términos de Servicio</a></li>
+                </ul>
+              </div>
+
+              {/* Support */}
+              <div className="space-y-4">
+                <h4 className="font-semibold text-card-foreground">El Futuro (Visión)</h4>
+                <ul className="space-y-2 text-sm">
+                  <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Modo Social</a></li>
+                  <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Integración con Wearables</a></li>
+                  <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Packs de Misiones Temáticos</a></li>
+                </ul>
+              </div>
+            </div>
           </div>
 
-          {/* Product */}
-          <div className="space-y-4">
-            <h4 className="font-semibold text-card-foreground">Producto</h4>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  Características
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  Precios
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  Actualizaciones
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  Roadmap
-                </a>
-              </li>
-            </ul>
+          {/* Bottom */}
+          <div className="border-t border-border/50 mt-12 pt-8 flex flex-col items-center justify-center text-center">
+            <p className="text-sm text-muted-foreground">
+              © 2025 Questly. Todos los derechos reservados. ¡Play your Life!
+            </p>          
           </div>
-
-          {/* Support */}
-          <div className="space-y-4">
-            <h4 className="font-semibold text-card-foreground">Soporte</h4>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  Centro de ayuda
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  Contacto
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  Comunidad
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  Estado del servicio
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          {/* Legal */}
-          <div className="space-y-4">
-            <h4 className="font-semibold text-card-foreground">Legal</h4>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  Privacidad
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  Términos
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  Cookies
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  Licencias
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        {/* Bottom */}
-        <div className="border-t border-border/50 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-muted-foreground">© 2024 MiApp. Todos los derechos reservados.</p>
-
-          <div className="flex items-center gap-2 text-sm text-muted-foreground">
-            <span>Hecho con</span>
-            <Heart className="h-4 w-4 text-red-500 fill-current" />
-            <span>para una mejor experiencia digital</span>
-          </div>
-        </div>
       </div>
     </footer>
   )

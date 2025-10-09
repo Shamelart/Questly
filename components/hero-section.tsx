@@ -41,12 +41,12 @@ export function HeroSection() {
                 </div>
 
                 <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-balance leading-tight animate-fade-in-up text-white">
-                  Revoluciona tu forma de <span className="text-gradient-questly">trabajar</span>
+                La vida no era un juego <span className="text-gradient-questly">¡Hasta ahora!</span>
                 </h1>
 
                 <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto text-pretty leading-relaxed animate-fade-in-up delay-200">
-                  Questly transforma tu productividad con tecnología de vanguardia. Gestiona proyectos, colabora en
-                  tiempo real y alcanza tus objetivos como nunca antes.
+                ¿Cansado de que tu rutina sea un "grind" aburrido? Questly transforma tus tareas diarias y 
+                metas personales en misiones épicas generadas por IA. Completa objetivos, sube de nivel y desbloquea tu potencial en el juego de tu vida. La productividad nunca fue tan divertida.
                 </p>
 
                 {/* CTA Buttons */}
@@ -55,7 +55,7 @@ export function HeroSection() {
                     size="lg"
                     className="group text-lg px-8 py-6 bg-gradient-questly hover:opacity-90 text-white hover:scale-105 transition-all duration-300"
                   >
-                    Descargar Questly
+                    ¡Comienza tu Aventura!
                     <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
                   </Button>
 
