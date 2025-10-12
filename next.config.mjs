@@ -7,11 +7,11 @@ try {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-   output: 'export', // Genera un sitio estático - COMENTADO PARA DESARROLLO LOCAL
-   distDir: 'out',   // Opcional: Cambia el directorio de salida a "out" - COMENTADO PARA DESARROLLO LOCAL
+   //output: 'export', // Genera un sitio estático - COMENTADO PARA DESARROLLO LOCAL
+   //distDir: 'out',   // Opcional: Cambia el directorio de salida a "out" - COMENTADO PARA DESARROLLO LOCAL
   images: {
     domains: ['flagcdn.com', 'hebbkx1anhila5yf.public.blob.vercel-storage.com'],
-     unoptimized: true, // COMENTADO PARA DESARROLLO LOCAL - permite optimización de imágenes
+     //unoptimized: true, // COMENTADO PARA DESARROLLO LOCAL - permite optimización de imágenes
   },
 };
 
