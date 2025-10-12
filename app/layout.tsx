@@ -7,9 +7,17 @@ import { Suspense } from "react"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "Questly - Revoluciona tu forma de trabajar",
+  title: "Questly - La vida no era un juego, ¡Hasta ahora!",
   description: "La app que transforma tu productividad con tecnología de vanguardia",
   generator: "v0.app",
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", type: "image/x-icon" }
+    ],
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
+  },
 }
 
 export default function RootLayout({
@@ -19,9 +27,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-      </head>
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
         <Suspense fallback={null}>{children}</Suspense>
         <Analytics />
