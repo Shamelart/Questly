@@ -1,5 +1,22 @@
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Política de Privacidad - Questly",
+  description: "Conoce cómo Questly protege tu privacidad y maneja tus datos personales. Política de privacidad transparente y segura.",
+  openGraph: {
+    title: "Política de Privacidad - Questly",
+    description: "Conoce cómo Questly protege tu privacidad y maneja tus datos personales. Política de privacidad transparente y segura.",
+    images: ['/image_seo.png'],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Política de Privacidad - Questly",
+    description: "Conoce cómo Questly protege tu privacidad y maneja tus datos personales. Política de privacidad transparente y segura.",
+    images: ['/image_seo.png'],
+  },
+}
 
 export default function PrivacyPage() {
   return (
