@@ -3,7 +3,7 @@ export const structuredData = {
   "@type": "SoftwareApplication",
   "name": "Questly",
   "description": "La app que transforma tu productividad con tecnología de vanguardia. Gamifica tu vida diaria y alcanza tus objetivos de manera divertida y efectiva.",
-  "url": "https://questly.app",
+  "url": "https://questly.fun",
   "applicationCategory": "ProductivityApplication",
   "operatingSystem": ["iOS", "Android"],
   "offers": {
@@ -24,9 +24,9 @@ export const structuredData = {
   "publisher": {
     "@type": "Organization",
     "name": "Questly",
-    "url": "https://questly.app"
+    "url": "https://questly.fun"
   },
-  "screenshot": "https://questly.app/image_seo.png",
+  "screenshot": "https://questly.fun/image_seo.png",
   "softwareVersion": "1.0.0",
   "datePublished": "2024-01-01",
   "dateModified": new Date().toISOString().split('T')[0],
