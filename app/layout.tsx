@@ -87,7 +87,6 @@ export default function RootLayout({
             __html: JSON.stringify(structuredData),
           }}
         />
-        <meta property="fb:app_id" content="1234567890123456" />
       </head>
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
         <Suspense fallback={null}>{children}</Suspense>
