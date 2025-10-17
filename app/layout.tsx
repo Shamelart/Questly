@@ -19,18 +19,18 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://questly.app'),
+  metadataBase: new URL('https://questly.fun'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     title: "Questly - La vida no era un juego, ¡Hasta ahora!",
     description: "La app que transforma tu productividad con tecnología de vanguardia. Gamifica tu vida diaria y alcanza tus objetivos de manera divertida y efectiva.",
-    url: 'https://questly.app',
+    url: 'https://questly.fun',
     siteName: 'Questly',
     images: [
       {
-        url: 'https://questly.app/image_seo.png',
+        url: 'https://questly.fun/image_seo.png',
         width: 1200,
         height: 630,
         alt: 'Questly - Gamifica tu productividad',
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: "Questly - La vida no era un juego, ¡Hasta ahora!",
     description: "La app que transforma tu productividad con tecnología de vanguardia. Gamifica tu vida diaria y alcanza tus objetivos de manera divertida y efectiva.",
-    images: ['https://questly.app/image_seo.png'],
+    images: ['https://questly.fun/image_seo.png'],
     creator: '@questly',
     site: '@questly',
   },
