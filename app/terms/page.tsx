@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Términos y Condiciones - Questly",
     description: "Lee los términos y condiciones de uso de Questly. Conoce tus derechos y responsabilidades como usuario de nuestra app de gamificación.",
-    images: ['/image_seo.png'],
+    images: ['https://questly.app/image_seo.png'],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Términos y Condiciones - Questly",
     description: "Lee los términos y condiciones de uso de Questly. Conoce tus derechos y responsabilidades como usuario de nuestra app de gamificación.",
-    images: ['/image_seo.png'],
+    images: ['https://questly.app/image_seo.png'],
   },
 }
 
