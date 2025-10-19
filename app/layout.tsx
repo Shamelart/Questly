@@ -30,10 +30,11 @@ export const metadata: Metadata = {
     siteName: 'Questly',
     images: [
       {
-        url: 'https://questly.fun/image_seo.png',
+        url: 'https://i.ibb.co/bgdtPb3L/image-seo.png',
         width: 1200,
         height: 630,
         alt: 'Questly - Gamifica tu productividad',
+        type: 'image/png',
       },
     ],
     locale: 'es_ES',
@@ -43,7 +44,15 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: "Questly - La vida no era un juego, ¡Hasta ahora!",
     description: "La app que transforma tu productividad con tecnología de vanguardia. Gamifica tu vida diaria y alcanza tus objetivos de manera divertida y efectiva.",
-    images: ['https://questly.fun/image_seo.png'],
+    images: [
+      {
+        url: 'https://i.ibb.co/bgdtPb3L/image-seo.png',
+        alt: 'Questly - Gamifica tu productividad',
+        width: 1200,
+        height: 630,
+        type: 'image/png'
+      }
+    ],
     creator: '@questly',
     site: '@questly',
   },
