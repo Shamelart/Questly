@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Política de Privacidad - Questly",
     description: "Conoce cómo Questly protege tu privacidad y maneja tus datos personales. Política de privacidad transparente y segura.",
-    images: ['https://i.imgur.com/4FuWdJ1.png'],
+    images: ['https://i.imgur.com/1Gn8lCu.png'],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Política de Privacidad - Questly",
     description: "Conoce cómo Questly protege tu privacidad y maneja tus datos personales. Política de privacidad transparente y segura.",
-    images: ['https://i.imgur.com/4FuWdJ1.png'],
+    images: ['https://i.imgur.com/1Gn8lCu.png'],
   },
 }
 
