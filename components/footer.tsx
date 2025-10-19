@@ -120,11 +120,11 @@ export function Footer() {
                     <span>@questly.world</span>
                   </a>
                   <a 
-                    href="mailto:contact@questly.fun"
+                    href="mailto:questlyworld@gmail.com"
                     className="flex items-center gap-3 text-gray-300 hover:text-purple-400 transition-colors cursor-pointer"
                   >
                     <Mail className="h-5 w-5" />
-                    <span>contact@questly.fun</span>
+                    <span>questlyworld@gmail.com</span>
                   </a>
                   <a 
                     href="https://tiktok.com/@questly.world" 
