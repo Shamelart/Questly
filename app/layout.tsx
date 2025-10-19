@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     siteName: 'Questly',
     images: [
       {
-        url: 'https://i.ibb.co/bgdtPb3L/image-seo.png',
+        url: 'https://i.imgur.com/4FuWdJ1.png',
         width: 1200,
         height: 630,
         alt: 'Questly - Gamifica tu productividad',
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     description: "La app que transforma tu productividad con tecnología de vanguardia. Gamifica tu vida diaria y alcanza tus objetivos de manera divertida y efectiva.",
     images: [
       {
-        url: 'https://i.ibb.co/bgdtPb3L/image-seo.png',
+        url: 'https://i.imgur.com/4FuWdJ1.png',
         alt: 'Questly - Gamifica tu productividad',
         width: 1200,
         height: 630,
