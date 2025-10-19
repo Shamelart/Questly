@@ -26,7 +26,7 @@ export const structuredData = {
     "name": "Questly",
     "url": "https://questly.fun"
   },
-  "screenshot": "https://questly.fun/image_seo.png",
+  "screenshot": "https://i.ibb.co/bgdtPb3L/image-seo.png",
   "softwareVersion": "1.0.0",
   "datePublished": "2024-01-01",
   "dateModified": new Date().toISOString().split('T')[0],
